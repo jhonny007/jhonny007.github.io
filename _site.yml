@@ -1,0 +1,33 @@
+brand: Orange Dragon beta
+
+bootswatch: null # flatly, yeti, lumen,...
+navbar_inverse: false
+bootstrap: 5.0.1
+navbar_right_items: 1
+
+# Fill out your Google Analytics ID here
+google_analytics: G-ETXVYPDXTV
+
+
+reflinks:
+    freepik:
+        url: https://www.freepik.com/vectors/logo
+        title: Logo vector created by vectortwins - www.freepik.com
+    urubu:
+        url: http://urubu.jandecaluwe.com
+        title: Urubu
+    urubu_quickstart_site:
+        url: http://urubu-quickstart.jandecaluwe.com
+        title: Urubu Quickstart site
+    bootstrap:
+        url: https://getbootstrap.com/
+        title: Bootstrap
+    datenschutzerklaerung:
+        url: https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html
+        title: Muster-Datenschutzerklärung
+    anwaltskanzlei:
+        url: https://www.ratgeberrecht.eu/datenschutz/datenschutzerklaerung-generator-dsgvo.html
+        title: Anwaltskanzlei Weiß & Partner
+    eule:
+        url: https://youtu.be/IQPLsq47o1U
+        title: Holzeule
