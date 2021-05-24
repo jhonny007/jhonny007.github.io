@@ -10,4 +10,4 @@ serve:
 	python3 -m urubu serve
 
 publish:
-	git subtree push --prefix _build origin gh-pages    
+	git subtree push --prefix _build origin live

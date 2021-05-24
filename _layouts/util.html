@@ -1,35 +1,39 @@
-{% macro card(image, text, price='?', original='') %}
+{% macro card(number, text, price='', orig='n', instr='n') %}
 <div class="col">
   <div class="card shadow-sm">
-    <div><img height="100%" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" src="images/{{image}}"></div>
+    <div><img height="100%" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" src="images/LEGO_{{number}}.jpg"></div>
     <div class="card-body">
-      <p class="card-text">{{text}}</p>
+      <p class="card-text">{{number}} - {{text}}</p>
       <div class="d-flex justify-content-between align-items-center">
         <div class="btn-group">
-	  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('{{image}}').style.display='block'">Anleitung</button>
-	  {% if original=='' %}
-	  {% else %}
-	  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('{{original}}').style.display='block'">original Bild</button>
+	  {% if instr=='y' %}
+	  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('{{number}}').style.display='block'">Anleitung</button>
+	  {% endif %}
+	  {% if orig=='y' %}
+	  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('{{number}}_o').style.display='block'">original Bild</button>
 	  {% endif %}
         </div>
+	{% if price!='' %}
         <small class="text-muted">{{price}} DM</small>
+	{% endif %}
       </div>
     </div>
   </div>
 
   <!-- modal instructions -->
-  <div id="{{image}}" class="w3-modal" onclick="this.style.display='none'">
+  {% if instr=='y' %}
+  <div id="{{number}}" class="w3-modal" onclick="this.style.display='none'">
     <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
     <div class="w3-modal-content w3-animate-zoom">
-      <img src="images/instructions/{{image}}" style="width:100%">
+      <img src="images/instructions/LEGO_{{number}}.jpg" style="width:100%">
     </div>
   </div>  
-  {% if original=='' %}
-  {% else %}
-  <div id="{{original}}" class="w3-modal" onclick="this.style.display='none'">
+  {% endif %}
+  {% if orig=='y' %}
+  <div id="{{number}}_o" class="w3-modal" onclick="this.style.display='none'">
     <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
     <div class="w3-modal-content w3-animate-zoom">
-      <img src="images/{{original}}" style="width:100%">
+      <img src="images/LEGO_{{number}}_original.jpg" style="width:100%">
     </div>
   </div>
   {% endif %}
