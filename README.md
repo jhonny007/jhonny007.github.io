@@ -6,6 +6,10 @@ made with http://urubu.jandecaluwe.com/
 
 pip install urubu
 
+*** Error with markdown can be fixed with
+
+pip install --upgrade 'markdown < 3'
+
 ** make and serve:
 
 make

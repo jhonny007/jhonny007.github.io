@@ -1,4 +1,4 @@
-{% macro card(image, text, price='?') %}
+{% macro card(image, text, price='?', original='') %}
 <div class="col">
   <div class="card shadow-sm">
     <div><img height="100%" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" src="images/{{image}}"></div>
@@ -7,18 +7,51 @@
       <div class="d-flex justify-content-between align-items-center">
         <div class="btn-group">
 	  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('{{image}}').style.display='block'">Anleitung</button>
-	  <button type="button" class="btn btn-sm btn-outline-secondary">Bild</button>
+	  {% if original=='' %}
+	  {% else %}
+	  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('{{original}}').style.display='block'">original Bild</button>
+	  {% endif %}
         </div>
         <small class="text-muted">{{price}} DM</small>
       </div>
     </div>
   </div>
+
+  <!-- modal instructions -->
+  <div id="{{image}}" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src="images/instructions/{{image}}" style="width:100%">
+    </div>
+  </div>  
+  {% if original=='' %}
+  {% else %}
+  <div id="{{original}}" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src="images/{{original}}" style="width:100%">
+    </div>
+  </div>
+  {% endif %}
 </div>
-<!-- modal instructions -->
-<div id="{{image}}" class="w3-modal" onclick="this.style.display='none'">
-  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-  <div class="w3-modal-content w3-animate-zoom">
-    <img src="images/instructions/{{image}}" style="width:100%">
+{% endmacro %}
+
+{% macro youtube_card(youtube_link, youtube_link_english='', duration='', text='') %}
+<div class="col">
+  <div class="card shadow-sm">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/{{youtube_link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="card-body">
+      <p class="card-text">{{text}}</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+	{% if youtube_link_english=='' %}
+	{% else %}
+	  <a class="btn btn-outline-secondary" href="https://www.youtube.com/watch?v={{youtube_link_english}}" role="button">Englisches Video</a>
+	{% endif %}
+        </div>
+        <small class="text-muted">{{duration}}</small>
+      </div>
+    </div>
   </div>
 </div>
 

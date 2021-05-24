@@ -21,14 +21,8 @@ III. Informationen zur Datenverarbeitung
 
 # I. Informationen über uns als Verantwortliche
 
-Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:
+Die Kontaktdaten des verantwortlichen Anbieters dieses Internetauftritts im datenschutzrechtlichen Sinne finden Sie in unserem Impressum.
 
-Christian Gruber  
-Mutter-Teresa-Str. 20  
-81829 München  
-Deutschland  
-
-E-Mail: christian.gruber@web.de
 
 
 # II. Rechte der Nutzer und Betroffenen
@@ -177,4 +171,4 @@ Rechtsgrundlage ist Art. 6 Abs. 1 lit. f) DSGVO. Unser berechtigtes Interesse li
 
 Falls Sie mit dieser Verarbeitung nicht einverstanden sind, haben Sie die Möglichkeit, die Speicherung der Cookies durch eine Einstellung in Ihrem Internet-Browsers zu verhindern. Nähere Informationen hierzu finden Sie vorstehend unter „Cookies“.
 
-Muster-Datenschutzerklärung der Anwaltskanzlei Weiß & Partner
+[datenschutzerklaerung] der [anwaltskanzlei]

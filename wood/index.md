@@ -1,5 +1,5 @@
 ---
-title: wood
+title: WOOD
 layout: index
 dropdown: true
 content:

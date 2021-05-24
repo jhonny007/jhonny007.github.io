@@ -1,5 +1,5 @@
 ---
-title: lego
+title: LEGO
 title2: LEGO Raumstation
 layout: album
 content:
@@ -9,7 +9,7 @@ tagline: Die Serie aus den 1980er Jahren hatte ich fast vollständig. Angefangen
 {% from 'util.html' import card %}
 
 
-{{ card('LEGO_886.jpg', '886 Das wohl kleinste Modell der Serie und das mit der niedrigsten Nummer die ich habe.') }}
+{{ card('LEGO_886.jpg', '886 Das wohl kleinste Modell der Serie und das mit der niedrigsten Nummer die ich habe.', original='LEGO_886_original.jpg') }}
 {{ card('LEGO_891.jpg', '891 Kleiner Gleiter.') }}
 {{ card('LEGO_897.jpg', '897 Transportable Rakete.') }}
 {{ card('LEGO_894.jpg', '894 Mobile Radarstation.') }}
