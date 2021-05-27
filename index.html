@@ -11,6 +11,7 @@
 
     <link href="/css/site.css" rel="stylesheet" media="screen" >
     <link href="/css/syntax.css" rel="stylesheet" media="screen" >
+    <link href="css/carousel.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -90,7 +91,7 @@
 
 
 
-<div class="container py-4">
+<!--div class="container py-4">
   <div class="p-5 mb-4 bg-light rounded-3">
     <div class="container-fluid py-5">
       <h1 class="display-5 fw-bold">Orange Dragon beta</h1>
@@ -98,7 +99,72 @@
       <a class="btn btn-primary btn-lg" role="button" href="wood/harrypotter.html">Aufgeht's!</a>
     </div>
   </div>
-</div>
+</div-->
+  
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div><img width="100%" background="#666" color="#777" text="false" title="false" src="wood/images/parkett.jpg"/></div>
+        <div class="container">
+	  <div class="carousel-caption text-start">
+  	    
+	    <h1>Videos von WOODs youtube Kanal.</h1>
+	    <p>Schöne Dinge aus Holz selbst gemacht</p>
+	    <p><a class="btn btn-lg btn-primary" href="wood/harrypotter.html">Hedwig, Schnatz, ...</a></p>
+	    
+	  </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div> <img class="card-img-top" width="100%" background="#777" color="#777" text="false" title="false" src="lego/images/lego_carousel.jpg"></div>
+        <div class="container">
+	  <div class="carousel-caption">
+
+	    <h1>Lego Raumstation</h1>
+	    <p>Die meisten Modelle der Serie</p>
+	    <p><a class="btn btn-lg btn-primary" href="/lego/index.html">Los gehts!</a></p>
+	  </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div> <img width="100%" background="#777" color="#777" text="false" title="false" src="coffee/images/coffee_carousel.jpg"> </div>
+        <div class="container">
+	  <div class="carousel-caption text-end">
+	    
+	    <h1>Kaffee</h1>
+	    <p>So mache ich Kaffee</p>
+	    <p><a class="btn btn-lg btn-primary" href="coffee/index.html">Anschauen</a></p>
+	    
+	  </div>
+	</div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+	<p class="mb-1">&copy; Christian Gruber 2021 - <a href="/privacy.html">Datenschutzerklärung</a> - <a href="/impressum.html">Impressum</a> - <a href="/credits.html">Credits</a></p>
+      </div>
+    </footer>
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
