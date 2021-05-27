@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>coffee</title>
+    <title>Deploy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <!-- Bootstrap -->
@@ -72,7 +72,7 @@
               </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="/lego/">LEGO</a></li>
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/coffee/">KAFFEE</a></li>
+            <li class="nav-item"><a class="nav-link" href="/coffee/">KAFFEE</a></li>
 
             <!--form class="navbar-form navbar-left" action="/search.html" role="search">
               <div class="form-group">
@@ -89,33 +89,51 @@
     </nav>
 
 
+<div class="container">
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Deploy</li>
+    </ol>
+  </nav>
+
+  <div class="page-header">
+    <h1>Deploy</h1>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-7 content" role="main">
     <main>
+      <p class="lead">This page describes a way to deploy the website.</p>
+<p>The website is built in the <code>_build</code> subdirectory.  To deploy it, you must
+transfer the contents of that subdirectory to the production web server.  There
+are many ways to do this.  An exhaustive overview is beyond the scope of this
+site, but we will describe one technique which is particularly elegant. This is
+the method used for Urubu Quickstart itself.</p>
+<p>Urubu Quickstart is developed using git and hosted on <a href="https://github.com/jandecaluwe/urubu-quickstart">GitHub</a>.  GitHub
+offers <a href="http://pages.github.com/">GitHub Pages</a> as a way to host websites from the project repository
+itself.  Technically, this is accomplished by maintaining the website content
+on a specific branch, called <code>gh-pages</code>.</p>
+<p>If you use git and GitHub, you can deploy your website to GitHub
+pages with the following command:</p>
+<div class="codehilite"><pre><span></span>git subtree push --prefix _build origin gh-pages    
+</pre></div>
 
-      <section class="py-5 text-center container">
-	<div class="row py-lg-5">
-	  <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Mein Cappuccino Traum</h1>
-            <p class="lead text-muted">Ich trinke gerne Cappuccino und dafür mahle ich die Bohnen gerne per Hand.</p>
-            <p>
-              <a href="#" class="btn btn-primary my-2">Main call to action</a>
-              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-            </p>
-	  </div>
-	</div>
-      </section>
 
-      <div class="album py-5 bg-light">
-	<div class="container">
-	  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-
-	    
-
-	  </div>
-	</div>
-      </div>
-
+<p>When the <code>gh-pages</code> branch does not exist yet it will be created.
+It is a good idea to put the command in the Makefile to make it
+easy to use. </p>
+<p>The website will be published at <code>http://&lt;username&gt;.github.io/&lt;repository&gt;</code>.
+You can also use a custom url. </p>
     </main>
+    <ul class="pager">
+    </ul>
+    </div>
 
+
+  </div>
 
     <footer class="text-muted py-5">
       <div class="container">
@@ -124,6 +142,8 @@
     </footer>
 
 
+
+</div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
