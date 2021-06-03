@@ -6,5 +6,6 @@ content:
     - harrypotter
     - animals
     - things
+    - tools
 ---
 

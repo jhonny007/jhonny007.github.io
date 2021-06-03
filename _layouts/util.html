@@ -40,6 +40,49 @@
 </div>
 {% endmacro %}
 
+{% macro sale_card(number, text, price='', orig='n', instr='n') %}
+<div class="col">
+  <div class="card shadow-sm">
+    <div><img height="100%" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" src="images/SALE_{{number}}_web.jpg"></div>
+    <div class="card-body">
+      <p class="card-text">{{number}} - {{text}}</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="btn-group">
+	  {% if instr=='y' %}
+	  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('{{number}}').style.display='block'">Anleitung</button>
+	  {% endif %}
+	  {% if orig=='y' %}
+	  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="document.getElementById('{{number}}_o').style.display='block'">original Bild</button>
+	  {% endif %}
+        </div>
+	{% if price!='' %}
+        <small class="text-muted">{{price}} €</small>
+	{% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- modal instructions -->
+  {% if instr=='y' %}
+  <div id="{{number}}" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src="images/instructions/LEGO_{{number}}.jpg" style="width:100%">
+    </div>
+  </div>  
+  {% endif %}
+  {% if orig=='y' %}
+  <div id="{{number}}_o" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src="images/LEGO_{{number}}_original.jpg" style="width:100%">
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endmacro %}
+
+
 {% macro youtube_card(youtube_link, youtube_link_english='', duration='', text='') %}
 <div class="col">
   <div class="card shadow-sm">
