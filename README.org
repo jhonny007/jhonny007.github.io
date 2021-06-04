@@ -1,0 +1,24 @@
+* Website
+
+made with http://urubu.jandecaluwe.com/
+
+** Installation
+
+   pip install urubu
+
+*** Error with markdown - can be fixed with
+
+    pip install --upgrade 'markdown < 3'
+
+** make and serve:
+
+   make
+   make serve
+
+** publish
+   copies the develop branch folder _build to the master
+
+   make publish
+
+** To Dos
+*** TODO Add external links to urubu (target="_blank")
