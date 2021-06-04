@@ -10,8 +10,12 @@
             <h1 class="fw-light">{{this.title2}}</h1>
             <p class="lead text-muted">{{this.tagline}}</p>
             <p>
-              <!-- a href="#" class="btn btn-primary my-2">Main call to action</a>
-              <a href="#" class="btn btn-secondary my-2">Secondary action</a -->
+	      {% if this['action1_href'] %}
+              <a href="{{this.action1_href}}" class="btn btn-primary my-2">{{this.action1_text}}</a>
+	      {% endif %}
+	      {% if this['action2_href'] %}
+              <a href="{{this.action2_href}}" class="btn btn-secondary my-2">{{this.action2_text}}</a>
+	      {% endif %}
             </p>
 	  </div>
 	</div>
