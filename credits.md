@@ -24,3 +24,7 @@ content:
 ## Datenschutzerklärung
 
 [datenschutzerklaerung] der [anwaltskanzlei].
+
+## Amazon
+
+[amazon.de]

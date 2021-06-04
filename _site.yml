@@ -31,3 +31,6 @@ reflinks:
     eule:
         url: https://youtu.be/IQPLsq47o1U
         title: Holzeule
+    amazon.de:
+        url: https://www.amazon.de/?&_encoding=UTF8&tag=orangedragon-21&linkCode=ur2&linkId=2da57c02e26da4e13c5a291f9a189a1e&camp=1638&creative=6742
+        title: amazon.de
