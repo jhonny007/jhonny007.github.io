@@ -10,13 +10,13 @@ Vitamin D heißt zwar Vitamin ist aber eher ein Hormon - es ist an zahlreichen P
 
 ## Welcher Spiegel sollte erreicht werden?
 
-Ein Wert zwischen 50-60 ng/ml gilt als optimal, unter 30 ng/ml wird als Mangel definiert. Diesen Spiegel ereichen die Kinder noch im ersten Lebensjahr, danach aber in keinem weiteren Lebensjahr mehr. Auch ein hoher Anteil der Erwachsenen weist einen Mangel auf:
+Ein Wert zwischen 50-60 ng/ml gilt als optimal, unter 30 ng/ml wird als Mangel definiert. Diesen Spiegel erreichen Säuglinge noch im ersten Lebensjahr - durch die einmalige Gabe von Vitamin D nach der Geburt und den meist empfohlenen 400 IE Vitamin D in Tablettenform (z.B. Vigantoletten), danach aber in keinem weiteren Lebensjahr mehr. Auch ein hoher Anteil der Erwachsenen weist einen Mangel auf:
 Studie zur Gesundheit Erwachsener in Deutschland (DEGS 2008-2011)
 29.7 % Frauen 30.8 % Männer haben einen Mangel.
 
 Affen haben ~60 ng/ml.
 
-Durch die Sonne lassen sich etwa 15000 - 20000 i.E. erzeugen.
+Durch die Sonne lassen sich etwa 15000 - 20000 i.E. erzeugen. Je nach Hauttyp dauert das bei idealem Sonnenstand 5 - 40 Minuten
 Je älter man ist desto weniger kann über die Haut produziert werden.
 
 Nur UVB kann die Haut zur Vitamin D Produktion anregen. In unseren Breiten funktioniert das erst ab einem Winkel von 45 Grad - der eigene Schatten muss kleiner sein als man selbst.
@@ -42,7 +42,7 @@ Nach der Messung Ende Februar mit einem Wert von 95 ng/ml nehme ich nun eine Erh
 TODO Diagramm
 
 ## Vitamin D und Corona
-Eine Infektion kann durch die Einnahme von Vitamin D nicht verhindert werden. Ob es den Krankheitsverlauf gemildert hat kann ich nicht beurteilen, da mir der Vergleich ohne Vitamin D fehlt.
+Eine Infektion konnte ich durch die Einnahme von Vitamin D nicht verhindern. Ob es den Krankheitsverlauf gemildert hat kann ich nicht beurteilen, da mir der Vergleich ohne Vitamin D fehlt.
 
 ## Einnahme Empfehlung
 
@@ -51,27 +51,28 @@ Eine Infektion kann durch die Einnahme von Vitamin D nicht verhindert werden. Ob
 
 1000 IE/Tag führt zu einer Erhöhung des Blutspiegels um 10 ng/ml bei 70 Kg Körpergewicht.
 
+
 ## Welchen Spiegel habe ich erreicht?
 
 Testung im März mit Cerascreen: 95 ng/ml
 
-Danach 10000 Einheit als Erhaltungsdosis 5000 als Tropfen, 5000 als Tablette
+Danach 10000 IE als Erhaltungsdosis 5000 IE als Tropfen, 5000 IE als Tablette
+
 
 ## Präparate
 
-Vitamin D3 Tropfen (5000 IE / Tropfen)   
-[Omega 3](https://amzn.to/3pASPQ5)   
+[Vitamin D3 Tropfen (5000 IE / Tropfen)](https://amzn.to/3csqzda)   
 [Magnesium Komplex](https://amzn.to/3uYTPic)   
+[Vitamin K2 Tropfen (20 µg / Tropfen)](https://amzn.to/3gpwr89)   
+[Omega 3](https://amzn.to/3pASPQ5)   
 
  
 ## Quellen
 
 ### Video
 
-Wien 20. Februar 2018
-Vitamin D - Hype oder Hope?
-Vortrag von Prof. Dr. Jörg Spitz
-https://www.youtube.com/watch?v=xEU7Hb8KrpM
+Wien 20. Februar 2018   
+[Vitamin D - Hype oder Hope? - Vortrag von Prof. Dr. Jörg Spitz](https://www.youtube.com/watch?v=xEU7Hb8KrpM)
 
 Das interessanteste für mich war die Information, dass in useren Breiten im Winter die Sonne so tief steht, dass kein Vitamin D gebildet werden kann.
 Die Darstellung die das Absinken des Vitamin D Spiegels mit dem Anstieg der Grippe Fallzahlen in Verbindung brachte war der Auslöser, dass ich sofort
@@ -81,9 +82,9 @@ Bestes Zitat: "Weil du unterbelichtet bist, musst du früher sterben!"
 
 ### Bücher
 
-Gesund in sieben Tagen (Dr. med. Raimund von Helden)
-Gesund mit der Kraft der Natur (Dr. med. Raimund von Helden)
-Hochdosiert (Jeff T. Bowles)
+[Gesund in sieben Tagen (Dr. med. Raimund von Helden)](https://amzn.to/3waSqX7)   
+[Gesund mit der Kraft der Natur (Dr. med. Raimund von Helden)](https://amzn.to/3iAUzaH)   
+[Hochdosiert (Jeff T. Bowles)](https://amzn.to/358BJja)   
 
 
 
